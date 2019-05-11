@@ -1,4 +1,5 @@
 require_relative '../models/entry'
+require 'rspec'
 
 RSpec.describe Entry do
   describe "attributes" do
@@ -37,4 +38,3 @@ RSpec.describe Entry do
     end
   end
 end
-
